@@ -1,0 +1,203 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: #000033 url('../siteimg/bk_body.jpg') no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px
+}
+p {
+	margin: 3px 10px 0 0;
+	padding: 0;
+	font-size: 14px;
+	color: #FFFFFF;
+}
+a {
+	color: #80C8FF;
+	text-decoration: none;
+}
+@font-face {
+    font-family: 'Supercell-magic-webfont';
+    src: url(../fonts/Supercell-magic-webfont.ttf);
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: Supercell-magic-webfont;
+	font-weight: bold;
+	padding-bottom: 0px;
+	margin: 5px 10px 0 0;
+	line-height: 100%;
+	font-style: italic;
+	text-align: center;
+}
+h1 {
+	font-size: 300%;
+	font-weight: normal;
+	color: #D9E4EF;
+}
+h2 {
+	font-size: 250%;
+	color: #D9E4EF;
+}
+h3 {
+	font-size: 200%;
+	color: #D9E4EF;
+}
+h4 {
+	font-size: 175%;
+	font-weight: bold;
+	color: #D9E4EF;
+	font-style: italic;
+}
+h5 {
+	font-size: 150%;
+	color: #D9E4EF;
+}
+h6 {
+	font-size: 11px;
+	font-weight: normal;
+	margin: 2px 0 0 0;
+	padding: 0;
+	color: #D9E4EF;
+}
+.style1 {
+        color: #FFFFFF
+}
+
+#wrapper {
+	width: 80%;
+	height: auto;
+	margin: 0 auto;
+	padding: 0;
+}
+/* If in mobile screen with maximum width 479px. The iPhone screen resolution is 320x480 px (except iPhone4, 640x960) */    
+@media only screen and (max-width: 479px){
+    #wrapper { width: 100%; }
+}
+#head {
+	width: 80%;
+	height: auto;
+	margin: 0 auto;
+	padding: 0;
+}
+
+/* If in mobile screen with maximum width 479px. The iPhone screen resolution is 320x480 px (except iPhone4, 640x960) */    
+@media only screen and (max-width: 479px){
+    #head { width: 100%; }
+}
+.headinside {
+	width: auto;
+	height: auto;
+	margin: 30px auto;
+	padding: 20px 0;
+	background: #4D4B4C url('../siteimg/maininnerbg.jpg') repeat-x;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+        -moz-border-radius:10px;
+        -webkit-border-radius:10px;
+        border-radius:10px;
+        border: 5px solid #FD0100;
+    text-align: center;
+    color: #D9E4EF;
+    font-size: 18pt;
+	font-style: italic;
+}
+#head a {
+	color: #D9E4EF;
+	text-decoration: none;
+}
+#bodyinner {
+	width: auto;
+	height: auto;
+	margin: 0 7px;
+	padding: 10px 0;
+	background: #4D4B4C url('../siteimg/maininnerbg.jpg') repeat-x;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+        -moz-border-radius:10px;
+        -webkit-border-radius:10px;
+        border-radius:10px;
+        border: 5px solid #FD0100;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+.main {
+	width: auto;
+	height: auto;
+	margin: 0 10px;
+	padding: 0;
+}
+.main a{
+	color: #D9E4EF;
+}
+#sponsors {
+	width: 80%;
+	height: auto;
+	margin: 0 auto;
+	padding: 0;
+}
+/* If in mobile screen with maximum width 479px. The iPhone screen resolution is 320x480 px (except iPhone4, 640x960) */    
+@media only screen and (max-width: 479px){
+    #sponsors { width: 100%; }
+}
+#sponsorsinner {
+	width: auto;
+	height: auto;
+	margin: 0 7px;
+	padding: 10px 0;
+	color: #FFFFFF;
+	background: #4D4B4C url('../siteimg/maininnerbg.jpg') repeat-x;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+        -moz-border-radius:10px;
+        -webkit-border-radius:10px;
+        border-radius:10px;
+        border: 5px solid #FD0100;
+	text-align: center;
+}
+#footer {
+	width: 80%;
+	height: auto;
+	margin: 0 auto;
+	padding: 0;
+}
+/* If in mobile screen with maximum width 479px. The iPhone screen resolution is 320x480 px (except iPhone4, 640x960) */    
+@media only screen and (max-width: 479px){
+    #footer { width: 100%; }
+}
+#footerinner {
+	width: auto;
+	height: auto;
+	margin: 30px 7px;
+	padding: 10px 0;
+	background: #4D4B4C url('../siteimg/maininnerbg.jpg') repeat-x;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+        -moz-border-radius:10px;
+        -webkit-border-radius:10px;
+        border-radius:10px;
+        border: 5px solid #FD0100;
+	text-align: center;
+	font-size: 12px;
+	color: #ffffff;
+}
+#footerinner a{
+	color: #D9E4EF;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+
